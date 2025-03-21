@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No need for custom color classes as they're defined in tailwind.config.js */
+
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+.hover\:text-gold:hover {
+  color: var(--color-gold);
+}
+
+.hover\:bg-gold:hover {
+  background-color: var(--color-gold);
+}
+
+.hover\:border-gold:hover {
+  border-color: var(--color-gold);
+}
+
+.focus\:border-gold:focus {
+  border-color: var(--color-gold);
+} 
