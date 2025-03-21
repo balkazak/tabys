@@ -12,4 +12,11 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxtjs/tailwindcss",
   ],
+  nitro: {
+    prerender: {
+      crawlLinks: false,
+      preset: "node",
+      routes: ["/", "/about", "/services", "/blog", "/investments", "/contacts"], // Add all valid routes
+    }
+  }
 });
