@@ -13,6 +13,11 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/korean-export.jpg" alt="Экспорт и Импорт" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="globe" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Экспорт и Импорт</h2>
@@ -30,7 +35,7 @@
 								</li>
 								<li class="flex items-start">
 									<Icon name="check" class="text-gold mr-2" />
-									<span>Организация логистики (морские, авиа и ж/д перевозки)</span>
+									<span>Организация логистики</span>
 								</li>
 								<li class="flex items-start">
 									<Icon name="check" class="text-gold mr-2" />
@@ -41,7 +46,7 @@
 									<span>Сертификация товаров</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -51,6 +56,11 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/lawyer.jpg" alt="Юридические услуги" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="scale-balance" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Юридические и переводческие услуги</h2>
@@ -77,7 +87,7 @@
 									<span>Консультации по правовым вопросам в Южной Корее</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -87,20 +97,26 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/korean-medical.jpg" alt="Медицинский туризм" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="hospital" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Медицинский туризм</h2>
 							<p class="text-gray-700 mb-6">
-								Южная Корея известна своими передовыми медицинскими технологиями и высококвалифицированными специалистами. Мы организуем полный цикл медицинского обслуживания в лучших клиниках Кореи.
+								Мы организуем поездки в Южную Корею для лечения и диагностики в лучших клиниках страны. Южная Корея известна своими передовыми медицинскими технологиями и высококвалифицированными
+								специалистами.
 							</p>
 							<ul class="space-y-3 text-gray-700 mb-8">
 								<li class="flex items-start">
 									<Icon name="check" class="text-gold mr-2" />
-									<span>Подбор клиники и врача в соответствии с вашими потребностями</span>
+									<span>Подбор клиники и врача</span>
 								</li>
 								<li class="flex items-start">
 									<Icon name="check" class="text-gold mr-2" />
-									<span>Организация консультаций с врачами</span>
+									<span>Организация консультаций</span>
 								</li>
 								<li class="flex items-start">
 									<Icon name="check" class="text-gold mr-2" />
@@ -115,7 +131,7 @@
 									<span>Организация проживания и трансфера</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -125,6 +141,11 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/seoul-skyline.jpg" alt="Культурный туризм" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="camera" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Культурный туризм</h2>
@@ -153,7 +174,7 @@
 									<span>Бронирование отелей и транспорта</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -163,6 +184,11 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/korea-business.jpg" alt="Бизнес-консалтинг" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="briefcase" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Бизнес-консалтинг</h2>
@@ -193,7 +219,7 @@
 									<span>Маркетинговые исследования корейского рынка</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -203,6 +229,11 @@
 					<div class="md:flex">
 						<div class="md:w-1/3 bg-black relative">
 							<img src="/images/korea-real-estate.jpg" alt="Инвестиционные проекты" class="w-full h-full object-cover opacity-60 absolute inset-0" />
+							<div class="h-full flex items-center justify-center p-12 relative z-10">
+								<div class="w-24 h-24 bg-gold rounded-full flex items-center justify-center">
+									<Icon name="chart-line" class="text-black" size="text-5xl" />
+								</div>
+							</div>
 						</div>
 						<div class="md:w-2/3 p-8 md:p-12">
 							<h2 class="text-3xl font-bold mb-6">Инвестиционные проекты</h2>
@@ -229,7 +260,7 @@
 									<span>Управление инвестиционными активами</span>
 								</li>
 							</ul>
-							<button class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
+							<button @click="navigateTo('/contacts')" class="px-6 py-3 bg-gold border border-gold text-black font-bold rounded hover:bg-opacity-90 transition">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
@@ -248,3 +279,7 @@
 		</section>
 	</div>
 </template>
+
+<script>
+	export default {};
+</script>

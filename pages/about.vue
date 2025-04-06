@@ -2,7 +2,34 @@
 	<div>
 		<section class="py-20 bg-gray-100">
 			<div class="container mx-auto px-4">
-				<h1 class="text-5xl font-bold mb-12 text-center">О компании <span class="text-gold">TABYS Trading</span></h1>
+				<h1 class="text-5xl font-bold mb-12 text-center"><span class="text-gold">О</span> компании</h1>
+
+				<div class="max-w-4xl mx-auto mb-16">
+					<p class="text-lg text-center">TABYS Trading LTD - ваш надежный партнер в развитии бизнеса между Казахстаном и Южной Кореей.</p>
+				</div>
+
+				<!-- Company Overview -->
+				<div class="bg-white rounded-lg shadow-lg overflow-hidden mb-16">
+					<div class="md:flex">
+						<div class="md:w-1/2">
+							<img src="/images/office.jpg" alt="Офис в Сеуле" class="w-full h-full object-cover" />
+						</div>
+						<div class="md:w-1/2 p-8 md:p-12">
+							<h2 class="text-3xl font-bold mb-6">Наша компания</h2>
+							<p class="text-gray-700 mb-4">
+								TABYS Trading LTD была основана в 2015 году группой профессионалов с многолетним опытом работы в сфере международной торговли и инвестиций. Наша миссия - содействовать развитию
+								экономических отношений между Казахстаном и Южной Кореей.
+							</p>
+							<p class="text-gray-700 mb-4">
+								Мы специализируемся на организации экспортно-импортных операций, инвестиционном консалтинге, юридическом сопровождении бизнеса и развитии культурных связей между двумя странами.
+							</p>
+							<p class="text-gray-700">
+								Наша команда состоит из высококвалифицированных специалистов, свободно владеющих казахским, русским, корейским и английским языками, что позволяет нам эффективно решать задачи наших
+								клиентов.
+							</p>
+						</div>
+					</div>
+				</div>
 
 				<div class="max-w-4xl mx-auto">
 					<p class="text-lg mb-6">
@@ -70,3 +97,7 @@
 		</section>
 	</div>
 </template>
+
+<script>
+	export default {};
+</script>

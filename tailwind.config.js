@@ -5,6 +5,7 @@ module.exports = {
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
     "./app.vue",
     "./error.vue"
   ],
@@ -16,4 +17,9 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [
+    'text-gold',
+    'bg-gold',
+    'border-gold'
+  ]
 } 
